@@ -95,7 +95,7 @@ If you have sudo permissions, you can install the AWS CLI version 2 for all user
 
    In this example, the `-o` option specifies the file name that the downloaded package is written to\. In the previous example, the file is written to `AWSCLIV2.pkg` in the current folder\.
 
-1. Before you can run the installer, you must create a file that specifies the folder to which the AWS CLI is installed\. This file is an XML formatted file that looks like the following example\. Leave all value as shown, expect you must replace the path */Users/myusername* in line 9 with the path to the folder you want the AWS CLI version 2 installed to\. *The folder must already exist, or the command fails\.* This XML example specifies that the installer is install the AWS CLI in the folder `/Users/myusername`, where it creates a folder named `aws-cli`\.
+1. Before you can run the installer, you must create a file that specifies the folder to which the AWS CLI is installed\. This file is an XML formatted file that looks like the following example\. Leave all values as shown, except you must replace the path */Users/myusername* in line 9 with the path to the folder you want the AWS CLI version 2 installed to\. *The folder must already exist, or the command fails\.* This XML example specifies that the installer is install the AWS CLI in the folder `/Users/myusername`, where it creates a folder named `aws-cli`\.
 
    ```
    <?xml version="1.0" encoding="UTF-8"?>
